@@ -12,7 +12,7 @@ STDOUT.sync = true
 
 class Makegraph
 	def initialize
-		@path = "/home/kishima/git/TwitterGraphMaker/" #作業ディレクトリの指定
+		@path = "/hoge/hoge/" #作業ディレクトリの指定
 		@listuser = "katoyuu1" #チェック対象リストの管理ユーザ名
 		@listname = "seiyu"    #チェック対象リスト名
 		@mytwitter = MyTwitter.new(@path)

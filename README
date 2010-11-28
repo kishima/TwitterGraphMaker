@@ -1,0 +1,25 @@
+* Twitter social graph script
+*  author:kishima
+*  mail:kishima7@gmail.com
+
+How to use
+ Required modules are as follows,
+   rubytter
+   ruby-graphviz
+ You need to do "gem install module-name"
+ 
+1.Set OAuth parameters
+ open libtwitter.rb and modify the initialize method of MyTwitter class.
+
+2.Set Twitter list name and working directory path.
+ open checkcomment.rb and makegraph.rb. Then modify @listuser, @listname and @path.
+
+3.Create a member list
+ ruby checkcomment.rb checkmembers
+
+4.Check updates
+ ruby checkcomment.rb
+
+5.Create a picture
+ ruby makegraph.rb > hoge.png
+ 
